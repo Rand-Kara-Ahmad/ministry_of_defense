@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Janna LT';
+    src: local('Janna LT'),
+    url("./../fonts/Janna LT Regular.ttf");
+}
+:root {
+    /* ------- colors ------- */
+    --primary-color: #3B3F45;
+    --secondary-color: #EEEEEE;
+
+    --color-1: #546E94;
+    --color-2: #9A2A2F;
+    --color-3: #8B6E04;
+    /* ---------------------- */
+
+    /* ------- fonts ------- */
+    --primary-font: "Janna LT";
+    --secondary-font: "Janna LT";
+    /* --------------------- */
+}
