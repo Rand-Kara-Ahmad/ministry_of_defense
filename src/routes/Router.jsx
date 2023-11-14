@@ -4,7 +4,7 @@ import Main from "../pages/Main.jsx";
 
 export const routes = createBrowserRouter([
     {
-        path: "/",
+        path: "/ministry_of_defense_front_end",
         element: <App/>,
         children: [
             {
