@@ -68,6 +68,13 @@
     text-align: right;
     width: 75%;
     background: linear-gradient(270deg, #393939 18.8%, rgba(67, 66, 66, 0.800098) 43.8%, rgba(92, 88, 88, 0) 94.44%);
+    bottom: 0.5vw;
+}
+.event .carousel-caption h3{
+    font-size: 2.5vw;
+}
+.event .carousel-caption p{
+    font-size: 1.5vw;
 }
 .carousel-item .date{
     position: relative;
