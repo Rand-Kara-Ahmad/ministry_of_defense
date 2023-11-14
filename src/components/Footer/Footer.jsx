@@ -12,7 +12,7 @@ const Footer = () => {
         <div className={"site-footer"}>
             <div className={"container"}>
                 <div className={"row "}>
-                    <div className={"footer-logo col-12 col-md-6 col-lg-3"}>
+                    <div className={"d-flex footer-logo col-12 col-md-6 col-lg-3"}>
                         <div className={"widget"}>
                             <img className={""} src={logo} alt=""/>
                             <h4>وزارة الدفاع السورية</h4>
