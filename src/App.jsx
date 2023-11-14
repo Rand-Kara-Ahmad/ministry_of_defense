@@ -1,11 +1,10 @@
-import {Fragment, useState} from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import {Fragment} from 'react'
 import './App.css'
+import './consts/root.css'
 import {Outlet, ScrollRestoration} from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Footer from "./components/Footer/Footer.jsx";
-
+import 'bootstrap/dist/js/bootstrap.min.js';
 function App() {
 
   return (

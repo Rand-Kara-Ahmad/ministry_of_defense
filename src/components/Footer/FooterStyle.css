@@ -1,0 +1,47 @@
+.site-footer {
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 16px;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.site-footer .footer-logo img {
+    width: 155px;
+    height: 129px;
+}
+
+.site-footer .social img {
+    width: 40px;
+    height: 40px;
+}
+
+.site-footer .footer-logo {
+    border-left: 1px solid white;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+.site-footer .widget {
+    margin-bottom: 40px;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.site-footer .widget h3 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.site-footer .widget .links li {
+    text-align: right;
+    margin-bottom: 10px;
+}
+.site-footer h3 {
+    text-align: right;
+    margin-right: 43px;
+}
+.site-footer .widget .links li {
+    margin-bottom: 10px;
+}

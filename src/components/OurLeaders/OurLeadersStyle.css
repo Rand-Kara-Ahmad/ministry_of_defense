@@ -1,0 +1,88 @@
+.leaders .container .row .this-card img {
+    Width:  60% ;
+    Height:  auto ;
+}
+
+@media screen and (min-width: 1301px){
+    .leaders {
+        padding: 100px 0;
+        background-color: var(--secondary-color) !important;
+        width: 916px;
+        height: 386px;
+        margin: 50px auto auto;
+        right: 10%;
+        left: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 15px solid var(--primary-color);
+    }
+
+    .leaders .container .row .this-card {
+        text-align: center;
+    }
+    .leaders .container .row .this-card .card-border {
+        position: absolute;
+        display: flex;
+        width: 82px;
+        top: -14px;
+        margin: auto;
+        transform:translate(-90%, 3%);
+    }
+
+    .leaders .container .row .this-card:nth-child(n+2) {
+        border-right: 1px solid var(--primary-color);
+    }
+
+    .leaders .container .row .this-card label{
+        color: #3E434A;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; /* 140% */
+        width: 156px;
+        height: 57px;
+        justify-content: center;
+        margin: auto;
+
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .leaders {
+        padding: 60px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 90%;
+        margin: auto;
+        position: static;
+    }
+    .leaders .container .row{
+        gap: 20px;
+    }
+    .leaders .container .row .this-card {
+        text-align: center;
+        background-color: var(--secondary-color) !important;
+        width: 284px;
+        height: 294px;
+        border-bottom: 15px solid var(--primary-color);
+        padding: 15px;
+        margin-bottom: 40px;
+    }
+    .leaders .container .row .this-card img{
+        display: block;
+        margin: auto;
+    }
+    .leaders .container .row .this-card label{
+        padding: 10px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .leaders .container .row .this-card p{
+        font-size: 12px;
+        line-height: 17px;
+    }
+}

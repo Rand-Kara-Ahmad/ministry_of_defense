@@ -1,0 +1,41 @@
+.serviceType {
+    width: 86vw;
+    margin: auto;
+}
+
+.serviceType h2 {
+    font-weight: bold;
+    font-size: 3.514vw;
+    margin: 5%;
+}
+
+.serviceType .row .carousel .carousel-indicators{
+    display: none;
+}
+
+.details{
+    padding: 2vw;
+    position: relative;
+    display: block;
+    height: auto;
+    background-color: var(--secondary-color);
+}
+.details .dash{
+    position: absolute;
+    height:  0.732vw ;
+    width: 1.83vw;
+    background-color: black;
+    top: 3vw;
+    right: 0;
+}
+.details .desc{
+    font-size: 1.4vw;
+}
+.details button{
+    padding:  0.366vw ;
+    color:white;
+    background-color: var(--primary-color);
+    width:  8.346vw ;
+    height:  3.441vw ;
+    font-size: 1.4vw;
+}

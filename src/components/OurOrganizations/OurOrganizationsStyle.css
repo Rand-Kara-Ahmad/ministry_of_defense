@@ -1,0 +1,27 @@
+.org-1-box{
+    padding: 10px;
+    width: 11.4375rem;
+    height: 11.1875rem;
+}
+.org-1 img{
+    margin: 0 auto;
+    width: 10rem;
+    margin-bottom: 10px;
+}
+.org-1 p{
+    margin: 0 auto;
+    width: 7rem;
+    color: #3E434A;
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.625rem; /* 130% */
+    text-decoration-line: underline;
+}
+.Org .container{
+    background: #EEE;
+}
+.slick-next:before , .slick-prev:before{
+    color: black !important;
+}

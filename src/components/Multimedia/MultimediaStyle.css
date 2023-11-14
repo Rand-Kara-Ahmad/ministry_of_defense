@@ -1,0 +1,60 @@
+/*.MultiMedia .slick-list .slick-track .slick-slide :nth-child(3n+1):first-child{*/
+/*    float: right;*/
+/*}*/
+.one{
+    position: relative;
+    width: 14.375rem !important;
+    height: 14.375rem;
+    background-image: url("./../../assets/images/2-11-8-660x330 2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+
+}
+.overlay{
+    position: absolute;
+    width:100%;
+    height: 14.375rem;
+    background-color: #2C2C2CB2;
+}
+.one h3,.two h3{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 9;
+    transform: translate(-50%,-50%);
+    width: max-content;
+}
+
+.two{
+    position: relative;
+    width: 23.60894rem ;
+    height: 17.6875rem;
+    background-image: url("./../../assets/images/syrian_newspapers_today_in_arabic 1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.two h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Janna LT;
+    font-size: 2.5rem;
+    width: max-content;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.4375rem;
+}
+.two .overlay{
+    height: 17.6875rem;
+}
+.MultiMedia h5{
+    color: #262626;
+    text-align: right;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.75rem; /* 58.333% */
+}
